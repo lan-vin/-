@@ -15,6 +15,8 @@ public class Admin {
 
     private String password;
 
+    private Integer sex;
+
     // 下面用于存储头像信息
     private String avatar; // 头像地址
 
@@ -24,6 +26,14 @@ public class Admin {
 
     public void setUid(Integer uid) {
         this.uid = uid;
+    }
+
+    public Integer getSex() {
+        return sex;
+    }
+
+    public void setSex(Integer sex) {
+        this.sex = sex;
     }
 
     public String getName() {
