@@ -1,0 +1,72 @@
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    background-color: #f4f4f4;*/
+/*    margin: 0;*/
+/*}*/
+
+/*.container {*/
+/*    max-width: 600px;*/
+/*    margin: 50px auto;*/
+/*    padding: 20px;*/
+/*    background-color: #fff;*/
+/*    border-radius: 8px;*/
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+
+
+
+
+
+
+/*#wishList {*/
+/*    border-top: 1px solid #ccc;*/
+/*    padding-top: 20px;*/
+/*}*/
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#getWishBtn {
+    display: none;
+    margin: 0 auto; /* Add this line to center the button */
+}
+
+#result {
+    margin-top: 20px;
+}
