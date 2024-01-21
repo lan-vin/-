@@ -8,12 +8,22 @@ public class AdminRequest {
 
     private String password;
 
+    private Integer sex;
+
     public Integer getId() {
         return id;
     }
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public Integer getSex() {
+        return sex;
+    }
+
+    public void setSex(Integer sex) {
+        this.sex = sex;
     }
 
     public String getUsername() {
