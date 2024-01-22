@@ -10,15 +10,23 @@ function login() {
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ username: username, password: password }),
+        body: JSON.stringify({
+            username: username,
+            password: password,
+        }),
     })
-        .then(response => {
-            if (response.ok) {
-                // 登录成功，可以进行相应的操作
-                console.log('Login successful');
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                document.getElementById("message").innerText = "Login successful. Redirecting to main page...";
+                // Redirect to main page with username
+                setTimeout(() => {
+// 要改地址
+                    //路径+参数名+参数值
+                    window.location.href = `main.html?username=${username}`;
+                }, 2000);
             } else {
-                // 登录失败，显示错误信息
-                console.error('Login failed');
+                document.getElementById("message").innerText = "Invalid username or password.";
             }
         })
         .catch(error => {
