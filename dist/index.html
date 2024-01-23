@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+<body>
+<div id="app">
+    <el-row type="flex" class="row-bg" justify="center" style="background: #545c64">
+        <el-col :span="24"><div class="grid-content bg-purple" style="background: #545c64">
+            <div class="line">
+                <el-menu
+                        :default-active="activeIndex2"
+                        class="el-menu-demo"
+                        mode="horizontal"
+                        @select="handleSelect"
+                        background-color="#545c64"
+                        text-color="#fff"
+                        active-text-color="#ffd04b">
+                    <el-menu-item index="1" onclick="tomakewish()" style="font-size: 30px; color: antiquewhite;" >许愿</el-menu-item>
+                    <el-menu-item index="2" onclick="toaccomplish()" style="font-size: 30px; color: antiquewhite;">获取心愿</el-menu-item>
+                    <el-menu-item index="3" onclick="toupload()" style="font-size: 30px; color: antiquewhite;">成果反馈</el-menu-item>
+                </el-menu>
+            </div>
+        </div>
+        </el-col>
+    </el-row>
+    <el-row type="flex" class="row-bg" justify="space-around">
+        <el-col :span="8"><div class="grid-content bg-purple fontp">成果展示<div class="container">
+            <br/>
+
+            <a href="#">aaaa</a><br/>
+            <a href="#">aaaa</a><br/>
+            <a href="#">aaaa</a><br/>
+            <a href="#">aaaa</a><br/>
+            <a href="#">aaaa</a><br/>
+            <a href="#">aaaa</a><br/>
+            <a href="#">aaaa</a><br/>
+            <a href="#">aaaa</a><br/>
+
+
+        </div></div></el-col>
+        <el-col :span="8"><div class="grid-content bg-purple-light add" id="add2"></div></el-col>
+    </el-row>
+    <el-row type="flex" class="row-bg" justify="space-around">
+        <el-col :span="8"><div class="grid-content bg-purple-light add" id="add3"></div></el-col>
+        <el-col :span="8"><div class="grid-content bg-purple add" id="add4"></div></el-col>
+    </el-row>
+    <form method="post" action="">
+        <input type="text" name="username" id="add" hidden="hidden">
+    </form>
+
+</div>
+</body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="./index.js"></script>
+</html>

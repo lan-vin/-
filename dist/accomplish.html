@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>获取心愿</title>
+  <link rel="stylesheet" href="accomplish.css">
+</head>
+<body>
+  <button class="return"><a href="./index.html">返回</a></button>
+  <div class="container">
+    <div id="genderSelection">
+      <p>请选择要帮助的人的性别</p>
+      <button onclick="selectGender('male')">男</button>
+      <button onclick="selectGender('female')">女</button>
+    </div>
+
+    <div id="result" style="display:none;">
+      <p>Contact: <span id="contact"></span></p >
+      <p>Wish: <span id="wishContent"></span></p >
+    </div>
+
+
+    <button id="getWishBtn" onclick="getRandomWish()" >获取心愿</button>
+
+  </div>
+
+  <script src="accomplish.js"></script>
+
+</body>
+</html>
