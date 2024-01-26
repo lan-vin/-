@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2360a61b-fb97-4b09-895d-2d132b75de36" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2bLhErQR8J7OFDNhFHcZ9jGM0RT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript 调试.aa.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript 调试.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/winds/Documents/Web_WishDemo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="2360a61b-fb97-4b09-895d-2d132b75de36" name="更改" comment="" />
+      <created>1706000157271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706000157271</updated>
+      <workItem from="1706000158307" duration="1794000" />
+      <workItem from="1706002040273" duration="5031000" />
+      <workItem from="1706013708197" duration="3178000" />
+      <workItem from="1706021538393" duration="30000" />
+      <workItem from="1706022192563" duration="3666000" />
+      <workItem from="1706028170618" duration="143000" />
+      <workItem from="1706028367510" duration="65000" />
+      <workItem from="1706028639481" duration="357000" />
+      <workItem from="1706029316565" duration="960000" />
+      <workItem from="1706030571898" duration="317000" />
+      <workItem from="1706068113689" duration="37000" />
+      <workItem from="1706080147388" duration="1266000" />
+      <workItem from="1706081999777" duration="128000" />
+      <workItem from="1706082381895" duration="155000" />
+      <workItem from="1706082777553" duration="6640000" />
+      <workItem from="1706089512818" duration="229000" />
+      <workItem from="1706094141412" duration="740000" />
+      <workItem from="1706095575682" duration="397000" />
+      <workItem from="1706096092610" duration="163000" />
+      <workItem from="1706096274113" duration="269000" />
+      <workItem from="1706096573408" duration="23000" />
+      <workItem from="1706097098448" duration="123000" />
+      <workItem from="1706097273431" duration="29000" />
+      <workItem from="1706097314849" duration="1084000" />
+      <workItem from="1706098415680" duration="10000" />
+      <workItem from="1706098770747" duration="666000" />
+      <workItem from="1706099588723" duration="1383000" />
+      <workItem from="1706105010988" duration="80000" />
+      <workItem from="1706250731377" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
